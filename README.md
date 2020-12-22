@@ -1,12 +1,13 @@
 # DRonA_MLSynergy
 Repository for GEOparser, DRonA and MLSynergy algorithm
 
-**Requires Python 2.7 or higher version to run**
+**Requires Python 2.7 or higher version**
 
 ## Installing
 
 ```
-python setup.py install
+python setup.py GEOparser install
+python setup.py DRonA_MLSynergy install
 ```
 ## Running instructions:
 **GEOparser -**
