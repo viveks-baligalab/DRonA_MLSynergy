@@ -12,13 +12,13 @@ python setup.py DRonA_MLSynergy install
 ## Running instructions:
 **GEOparser -**
 ```
-python GEOparser.py --help --prjname <> --coldir <> --refseq <> -gsmidfile <> [OPTIONS]
+python2 GEOparser.py --help --prjname <> --coldir <> --refseq <> -gsmidfile <> [OPTIONS]
 ```
 **DRonA -**
 ```
-python DRonA.py --help --command <> --classifier[conditional] <> --metadata <> --data <> --ref_ids <> --output <> [OPTIONS]
+python3 DRonA.py --help --command <> --classifier[conditional] <> --metadata <> --data <> --ref_ids <> --output <> [OPTIONS]
 ```
 **MLSynergy -**
 ```
-python MLSynergy.py --help --command <> --[conditional]classifier <> --[conditional]metadata <> --[conditional]combinaitons --[conditional]data <> --[conditional]ref_ids <> --output [OPTIONS]
+python3 MLSynergy.py --help --command <> --[conditional]classifier <> --[conditional]metadata <> --[conditional]combinaitons --[conditional]data <> --[conditional]ref_ids <> --output [OPTIONS]
 ```
