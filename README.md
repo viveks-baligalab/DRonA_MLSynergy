@@ -3,12 +3,12 @@ Repository for GEOparser, DRonA and MLSynergy algorithm
 
 **Requires Python 2.7 or higher version to run**
 
-## Running instructions:
-**Installing**
+## Installing
 
 ```
 python setup.py install
 ```
+## Running instructions:
 **GEOparser -**
 ```
 python GEOparser.py --help --prjname <> --coldir <> --refseq <> -gsmidfile <> [OPTIONS]
