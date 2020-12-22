@@ -6,7 +6,7 @@ Repository for GEOparser, DRonA and MLSynergy algorithm
 ## Installing required packages
 
 ```
-pip2 install -r GEOparser_requirement.txt
+pip2 install -r GEOparser_requirements.txt
 pip3 install -r DRonA_MLSynergy_requirements.txt
 ```
 
