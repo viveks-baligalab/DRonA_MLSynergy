@@ -28,4 +28,3 @@ python3 DRonA.py --help --command <> --classifier[conditional] <> --metadata <> 
 ```
 python3 MLSynergy.py --help --command <> --[conditional]classifier <> --[conditional]metadata <> --[conditional]combinaitons --[conditional]data <> --[conditional]ref_ids <> --output [OPTIONS]
 ```
->>>>>>> c4be7277f0adee882ab314238282242493448646
