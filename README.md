@@ -1,10 +1,15 @@
-# DRonA_MLSynergy
-Repository for GEOparser, DRonA and MLSynergy algorithm
+# DRonA and MLSynergy
+**Repository for GEOparser, DRonA and MLSynergy algorithms**
 
-**Requires Python 2.7 for GEOparser and Python 3.0 for DRonA and MLSynergy**
+##### Requires Python 2.7 for GEOparser and Python 3.0 for DRonA and MLSynergy
+
+## Downloading packages
+
+```
+git clone https://github.com/viveks-baligalab/DRonA_MLSynergy.git
+```
 
 ## Installing required packages
-
 ```
 pip2 install -r GEOparser_requirements.txt
 pip3 install -r DRonA_MLSynergy_requirements.txt
