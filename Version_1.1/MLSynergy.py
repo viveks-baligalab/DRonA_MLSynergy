@@ -109,7 +109,12 @@ def get_mlsyn_score(trained_classifier,data,metadata,combination_metadata):
             d1,d2,d3,d123_e,d123_o = mlsyn(trained_classifier,data,sd,n,trt,3)
             mlsyn_sc = d123_e/d123_o
             expected, observed = d123_e,d123_o
-        metacomb.at[n,"MLSynergy_score"] = np.log2(mlsyn_sc + 0.3329)*10#Score corrected with the avergage ratio of additive combinations
+        mlsyn_score = np.log2(mlsyn_sc + 0.3329)*10#Score corrected with the avergage ratio of additive combinations
+        metacomb.at[n,"MLSynergy_score"] = mlsyn_score
+        if mlsyn_score < 0:
+            metacomb.at[n,"MLSynergy_label"] = "Synergy"
+        elif mlsyn_score >= 0:
+            metacomb.at[n,"MLSynergy_label"] = "Antagony"
     return metacomb
 
 
