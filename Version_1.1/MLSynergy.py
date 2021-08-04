@@ -233,7 +233,7 @@ OPTIONS:\n\
                     normed_cleaned_reInd_exp_data = cleaned_reInd_exp_data.copy()
                 ### Get MLSynergy score
                 mlsyn_score = get_mlsyn_score(classifier,normed_cleaned_reInd_exp_data,metadata,combinations)
-                csvfilename = "%s_predicted.csv"%combinations.split(".")[0]
+                csvfilename = "%s_predicted.csv"%".".join(combinations.split(".")[:-1])
                 mlsyn_score.to_csv(csvfilename)
                 if chrd == "Yes":
                     htmlfilename = "%s_chordplot.html"%combinations.split(".")[0]
